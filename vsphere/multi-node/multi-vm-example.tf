@@ -1,6 +1,6 @@
 # Variable Definition
-variable "web_count" {default = 3} # Define the number of "web" nodes you wish to spin up
-variable "lb_count" {default = 1} # Define the number of "lb" nodes
+variable "web_count" {default = 3} # Define the number of "web" instances
+variable "lb_count" {default = 1} # Define the number of "lb" instances
 
 # Configure the VMware vSphere Provider
 provider "vsphere" {

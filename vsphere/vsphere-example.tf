@@ -1,7 +1,7 @@
 # Variable Definition
-variable "node_count" {default = 1} # Define the number of nodes
+variable "node_count" {default = 1} # Define the number of instances
 
-# Configure the VMware vSphere Provider
+# Configure the VMware vSphere Provider. ENV Variables set for Username and Passwd.
 provider "vsphere" {
  vsphere_server = "vcenter.server"
 }
