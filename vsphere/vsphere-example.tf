@@ -44,5 +44,5 @@ resource "vsphere_virtual_machine" "example" {
  time_zone = "America/New_York"
 
 # Loop for Count
- count = "${var.lb_count}"
+ count = "${var.node_count}"
 }
